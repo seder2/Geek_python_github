@@ -9,9 +9,9 @@ class Road:
     _length: int
     _width: int
 
-    def __init__(self, _width, _length, weight=25, depth=5):
-        self._length = _length
-        self._width = _width
+    def __init__(self, width, length, weight=25, depth=5):
+        self._length = length
+        self._width = width
         self.weight = weight
         self.depth = depth
 
